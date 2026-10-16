@@ -32,3 +32,7 @@
 # Why did we commit A+B separately from C? When would youwant to split commits this way?
 
 ## Because these are sperate features and we want their commit history separately rather than combined because it will help us in cleaning in future
+
+# What would happen if you made a local commit first WITHOUT pulling? What command helps you check?
+## your local branch and remote branch will diverge
+
