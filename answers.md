@@ -36,3 +36,21 @@
 # Did this merge create a merge commit or was it a fast-forward? How can you tell?
 
 ## It was a merge commit because both branches had new changes, so Git had to create a new commit to tie the two separate paths together instead of just sliding forward in a straight line.
+
+# Why did this conflict happen? (Reference the rule: same file, same line)
+
+## Because we were changing the same file and the same line 
+
+# Would there have been a conflict if the two branches edited different lines of team.txt ?
+
+## No becasue lines are different
+
+# Would there have been a conflict if one branch edited team.txt and the other edited about.md ?
+
+## No because both working on separate files so no conflict
+
+
+
+
+
+
