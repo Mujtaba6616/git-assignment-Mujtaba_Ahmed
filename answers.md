@@ -28,3 +28,7 @@
 # called node_modules/ , and any file ending in .env .
 
 ## it hides all the untracked files and tell github to not show them genrally your credentials, API's etc goes in here.
+
+# Why did we commit A+B separately from C? When would youwant to split commits this way?
+
+## Because these are sperate features and we want their commit history separately rather than combined because it will help us in cleaning in future
