@@ -31,4 +31,8 @@
 
 # Why did we commit A+B separately from C? When would youwant to split commits this way?
 
-## Because these are sperate features and we want their commit history separately rather than combined because it will help us in cleaning in future
+## Because these are sperate features and we want their commit history separately rather than combined because it will help us in cleaning in future 
+
+# Did this merge create a merge commit or was it a fast-forward? How can you tell?
+
+## It was a merge commit because both branches had new changes, so Git had to create a new commit to tie the two separate paths together instead of just sliding forward in a straight line.
